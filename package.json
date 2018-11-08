@@ -7,14 +7,15 @@
     "build": "NODE_ENV=production webpack",
     "lint": "eslint ./src --ext .js --fix",
     "dev": "NODE_ENV=development webpack-dev-server --content-base dist --hot",
-    "start": "npm run lint && npm run dev"
+    "start": "npm run lint && npm run dev",
+    "data": "json-server db/parts.json --port 3003"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TimothyHarley/lego-builder.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Timothy Harley",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TimothyHarley/lego-builder/issues"
